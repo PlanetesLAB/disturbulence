@@ -5,11 +5,9 @@ edition = "2024"
 
 [dependencies]
 fftw = { git = "https://github.com/kmaitreys/fftw3-rs.git", branch = "master" }
-anyhow = "1.0.98"
-serde = { version = "1.0.219", features = ["derive"] }
-toml = "0.9.0"
-ndarray = "0.16.1"
+anyhow = "1.0.102"
+serde = { version = "1.0.228", features = ["derive"] }
+toml = "1.1.2+spec-1.1.0"
+ndarray = "0.17.2"
 num-complex = "0.4.6"
-extensions = { git = "https://github.com/ProsiaLAB/extensions", features = [
-    "complex",
-] }
+prosia-extensions = { version = "0.2.1", features = ["complex"] }

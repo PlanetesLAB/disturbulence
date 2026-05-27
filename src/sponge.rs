@@ -1,4 +1,4 @@
-use extensions::types::RMatrix;
+use prosia_extensions::types::RMatrix;
 
 #[derive(Default)]
 pub struct Sponge {

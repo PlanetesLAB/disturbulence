@@ -1,4 +1,4 @@
-use extensions::types::{CMatrix, RVector, UVector};
+use prosia_extensions::types::{CMatrix, RVector, UVector};
 
 #[derive(Default)]
 pub struct FargoShift {

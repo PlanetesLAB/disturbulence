@@ -2,7 +2,6 @@
 #![allow(clippy::too_many_lines)]
 
 pub mod advection;
-pub mod constants;
 pub mod core;
 pub mod euler;
 pub mod fargo;

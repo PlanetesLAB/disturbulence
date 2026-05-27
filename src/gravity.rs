@@ -1,4 +1,4 @@
-use extensions::types::{RMatrix, RVector};
+use prosia_extensions::types::{RMatrix, RVector};
 
 #[derive(Default)]
 pub struct Gravity {
