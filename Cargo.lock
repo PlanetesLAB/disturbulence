@@ -211,7 +211,7 @@ dependencies = [
  "fftw",
  "ndarray 0.17.2",
  "num-complex",
- "prosia-extensions",
+ "planetes-ext",
  "serde",
  "toml",
 ]
@@ -529,6 +529,16 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7edddbd0b52d732b21ad9a5fab5c704c14cd949e5e9a1ec5929a24fded1b904c"
 
 [[package]]
+name = "planetes-ext"
+version = "0.2.0"
+source = "git+https://github.com/PlanetesLAB/planetes-ext?tag=v0.2.0#c2ea6eef5fe5a8552d9a476c04632e2be4ea4c16"
+dependencies = [
+ "ndarray 0.17.2",
+ "num-complex",
+ "num-traits",
+]
+
+[[package]]
 name = "portable-atomic"
 version = "1.11.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -575,17 +585,6 @@ checksum = "52717f9a02b6965224f95ca2a81e2e0c5c43baacd28ca057577988930b6c3d5b"
 dependencies = [
  "quote",
  "syn",
-]
-
-[[package]]
-name = "prosia-extensions"
-version = "0.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ff044b3ba3b7f684b10cbc51027a2392c594ce755dfc7abf8b96faef2e45bc2a"
-dependencies = [
- "ndarray 0.17.2",
- "num-complex",
- "num-traits",
 ]
 
 [[package]]

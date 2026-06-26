@@ -1,4 +1,4 @@
-use prosia_extensions::types::RMatrix;
+use planetes_ext::types::RMatrix;
 
 #[derive(Default)]
 pub struct Sponge {

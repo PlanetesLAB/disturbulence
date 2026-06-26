@@ -1,4 +1,4 @@
-use prosia_extensions::types::{RMatrix, RVector};
+use planetes_ext::types::{RMatrix, RVector};
 
 #[derive(Default)]
 pub struct Gravity {

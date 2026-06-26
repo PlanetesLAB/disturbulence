@@ -4,10 +4,12 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-fftw = { git = "https://github.com/kmaitreys/fftw3-rs.git", branch = "master" }
+fftw = { git = "https://github.com/PlanetesLAB/fftw3-rs.git", branch = "master" }
 anyhow = "1.0.102"
 serde = { version = "1.0.228", features = ["derive"] }
 toml = "1.1.2+spec-1.1.0"
 ndarray = "0.17.2"
 num-complex = "0.4.6"
-prosia-extensions = { version = "0.2.1", features = ["complex"] }
+planetes-ext = { git = "https://github.com/PlanetesLAB/planetes-ext", tag = "v0.2.0", features = [
+    "complex",
+] }

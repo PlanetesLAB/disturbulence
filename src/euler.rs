@@ -1,5 +1,5 @@
 use ndarray::s;
-use prosia_extensions::types::{RMatrix, RTensor, RTensor4, RVector};
+use planetes_ext::types::{RMatrix, RTensor, RTensor4, RVector};
 
 use crate::core::{BCType, BoundaryConditionData, Config, ProblemType, ThermalParameters};
 use crate::core::{Grid, QArray, RK4, StretchedMesh, Transposes};

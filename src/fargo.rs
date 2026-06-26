@@ -1,4 +1,4 @@
-use prosia_extensions::types::{CMatrix, RVector, UVector};
+use planetes_ext::types::{CMatrix, RVector, UVector};
 
 #[derive(Default)]
 pub struct FargoShift {
