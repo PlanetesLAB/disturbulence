@@ -30,9 +30,9 @@ dependencies = [
 
 [[package]]
 name = "anyhow"
-version = "1.0.102"
+version = "1.0.103"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7f202df86484c868dbad7eaa557ef785d5c66295e41b460ef922eca0723b842c"
+checksum = "2a4385e2e34eb35d6b3efe798b9eb88096925d87726c0798709bf56d9ed84af3"
 
 [[package]]
 name = "autocfg"
@@ -231,7 +231,7 @@ checksum = "877a4ace8713b0bcf2a4e7eec82529c029f1d0619886d18145fea96c3ffe5c0f"
 [[package]]
 name = "fftw"
 version = "0.8.0"
-source = "git+https://github.com/kmaitreys/fftw3-rs.git?branch=master#a24f698775aae150935c03f8eb1b1ebadab99f27"
+source = "git+https://github.com/PlanetesLAB/fftw3-rs.git?branch=master#a24f698775aae150935c03f8eb1b1ebadab99f27"
 dependencies = [
  "bitflags",
  "fftw-sys",
@@ -248,7 +248,7 @@ dependencies = [
 [[package]]
 name = "fftw-src"
 version = "0.8.0"
-source = "git+https://github.com/kmaitreys/fftw3-rs.git?branch=master#a24f698775aae150935c03f8eb1b1ebadab99f27"
+source = "git+https://github.com/PlanetesLAB/fftw3-rs.git?branch=master#a24f698775aae150935c03f8eb1b1ebadab99f27"
 dependencies = [
  "anyhow",
  "cc",
@@ -260,7 +260,7 @@ dependencies = [
 [[package]]
 name = "fftw-sys"
 version = "0.8.0"
-source = "git+https://github.com/kmaitreys/fftw3-rs.git?branch=master#a24f698775aae150935c03f8eb1b1ebadab99f27"
+source = "git+https://github.com/PlanetesLAB/fftw3-rs.git?branch=master#a24f698775aae150935c03f8eb1b1ebadab99f27"
 dependencies = [
  "fftw-src",
  "libc",
