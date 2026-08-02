@@ -5,9 +5,9 @@ edition = "2024"
 
 [dependencies]
 fftw = { git = "https://github.com/PlanetesLAB/fftw3-rs.git", branch = "master" }
-anyhow = "1.0.103"
-serde = { version = "1.0.228", features = ["derive"] }
-toml = "1.1.2+spec-1.1.0"
+anyhow = "1.0.104"
+serde = { version = "1.0.229", features = ["derive"] }
+toml = "1.1.4"
 ndarray = "0.17.2"
 num-complex = "0.4.6"
 planetes-ext = { git = "https://github.com/PlanetesLAB/planetes-ext", tag = "v0.2.0", features = [
